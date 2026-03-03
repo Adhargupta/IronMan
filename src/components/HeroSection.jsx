@@ -4,6 +4,9 @@ import './HeroSection.css'
 function HeroSection() {
   return (
     <section className="hero">
+      {/* Bike image placeholder on the right */}
+      <div className="hero__bike" aria-hidden="true" />
+
       {/* Diagonal dark overlay */}
       <div className="hero__overlay" aria-hidden="true" />
 
