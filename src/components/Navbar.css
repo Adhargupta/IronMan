@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 56px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.navbar__links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+
+.navbar__links a:hover {
+  opacity: 1;
+}
+
+.navbar__signup {
+  background-color: #7efadb;
+  color: #000000;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 28px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition: background-color 0.2s;
+}
+
+.navbar__signup:hover {
+  background-color: #5ef5cf;
+}
