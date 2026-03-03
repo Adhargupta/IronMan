@@ -4,7 +4,7 @@
   left: 56px;
   display: flex;
   gap: 14px;
-  z-index: 1;
+  z-index: 2;
 }
 
 .social-icons__link {
